@@ -10,7 +10,9 @@ DEBUG_PATH="/home/youn/workspace/debug"
 PYTHON_PATH="/home/youn/venv/mg/bin/python3"
 
 # os environment variables
-. .env
+set -a
+source .env
+set +a
 
 
 cd $MG_PATH
